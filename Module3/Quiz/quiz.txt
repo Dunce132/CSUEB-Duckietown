@@ -1,2 +1,22 @@
-#TODO: Add quiz questions from MOOC and self-made quiz questions to test student understanding on the content
-I plan on adding some basic physics questions, such as formula-based questions and conceptual questions
+#TODO: Get the other questions from MOOC and create my own short answer questions related to module.
+
+How to read:
+Q: Question being asked
+List of answers: The possible answers to be chosen
+A: The final answer(s)
+
+Example
+Q: Why are robot representations important?
+1. To define performance metrics associated with specific tasks.
+2. To formally define tasks.
+3. To have robots communicate with each other.
+A: 1, 2
+
+In this example, there are answers 1, 2, and 3. The last line says answers 1 and 2 are correct.
+
+Q: Where do robots get representations from?
+1. From the planning module.
+2. From the designer.
+3. From the observations.
+4. From the model of the controlled plant.
+A: 2

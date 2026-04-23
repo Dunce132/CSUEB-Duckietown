@@ -1,5 +1,4 @@
 Learning Experience for ROS: https://github.com/duckietown/lx-ros-basics?tab=readme-ov-file
-
 Note for Learners: The ROS section of the slides come from this module.
 
 Learning Experience Guide for Modeling and Kinematics: https://docs.duckietown.com/ente/duckietown-manual/60-learning-experiences/lx-setup-modeling-kinematics.html

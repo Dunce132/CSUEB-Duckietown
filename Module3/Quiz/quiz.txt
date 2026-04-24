@@ -1,5 +1,7 @@
 #TODO: Get the other questions from MOOC and create my own short answer questions related to module.
 
+Questions below are from the MOOC
+
 How to read:
 Q: Question being asked
 List of answers: The possible answers to be chosen
@@ -20,3 +22,98 @@ Q: Where do robots get representations from?
 3. From the observations.
 4. From the model of the controlled plant.
 A: 2
+
+Q: What are some examples of validd representations in the Duckietown world?
+1. Spherical topography, GPS coordinates.
+2. Duckietown-tile grid map (each city tile is a cell).
+3. Road network graph (nodes are intersections, edges are drivable roads).
+4. Feature-based map, where features could be line segments, traffic signs, etc.
+A: 1, 2, 3, 4
+
+Q: How do we quantify representations?
+1. With state variables.
+2. With numbers.
+3. With models.
+4. With algorithms.
+A: 1
+
+Q: Can we calculate the uniqie "true pose" of a Duckiebot at a given instant of time?
+1. Yes
+2. No
+3. It's impossible to tell with the provided information.
+A: 2 but, 3 should be an acceptable answer (in my opinion)
+
+Skip this question if the matrix math is being described in a more hand-wavy fashion
+Q: What is special about rotation matrices?
+1. They are particularly symmetric.
+2. They are particularly square.
+3. They are particularly easy to invert.
+4. They are particularly easy to calculate.
+A: 3
+
+Q: How can we express the pose of any point in the world?
+1. Through elements of the Special Orthogonal group.
+2. Through rotations.
+3. Through elements of the Special Euclidean group.
+4. Through translations
+A: 3
+
+Q: Why do we introduce SE(2)?
+1. For the sake of completeness.
+2. To provide a structure to analyze n-dimensional representations.
+3. Because they're the only way to express poses w.r.t. different reference frames.
+4. Because its elements allow one to "move between frames" with matrix multiplication operations.
+A: 4
+
+Q: What is the purpose of mathematical modeling?
+1. To represent the real physical processes that describe the behavior of the system with 100% accuracy.
+2. To predict the future behavior of the system.
+3. To understand the influence of various parameters on the variables of interest to us.
+4. To obtain an actionable mathematical infrastructure to analyze and solve problems.
+A: 2, 3, 4
+
+Q: What is a differential drive vehicle?
+1. A vehicle with a swappable gearbox.
+2. A vehicle with four controlled wheels, two of which push, two of which steer.
+3. A vehicle with two controlled wheels, each of which is driven independently.
+4. A vehicle with four-wheel drive.
+A: 3
+
+Q: What kind of model have we derived for our Duckiebot?
+1. A static model.
+2. A learning-based model.
+3. A Kinematic model.
+4. A dynamic model.
+A: 3
+
+Q: Why is the kinematics model of the Duckiebot wrong?
+1. The Duckiebot has a mass!
+2. The Duckiebot has friction(s)!
+3. The Duckiebot is not symmetric!
+4. The Duckiebot is not a differential drive vehicle!
+A: 1, 2, 3
+
+Q: Why is the kinematics model of the Duckiebot useful?
+1. It captures the fundamental input-output behavior of the vehicle.
+2. It offers guidelines on factors that will influence the driving experience.
+3. It allows us to improve the Duckiebot design.
+4. It is the most realistic model we could have come up with.
+5. It is a good compromise of simplicity and descriptive power.
+A: 1, 2, 5
+
+Skip this question unless slides are edited to cover this. I did not cover the inverse kinematics model in my slides
+Q: What is the output of the inverse kinematics model?
+1. Angular velocities of the wheels.
+2. Wheel radii and baseline.
+3. Desired robot linear and angular speed.
+4. The pose of the robot.
+A: 1
+
+Same as last question. Skip unless slides are edited to cover forward and inverse kinematics.
+Q: What is the input to the forward kinematics model?
+1. Angular velocities of the wheels.
+2. Wheel radii and baseline.
+3. Desired robot linear and angular speed.
+4. The pose of the robot.
+A: 1
+

@@ -1,0 +1,7 @@
+Representations: https://app-na1.hubspotdocuments.com/documents/8795519/view/717879050?accessId=6d034f
+
+Modeling of a differential drive vehicle: https://app-na1.hubspotdocuments.com/documents/8795519/view/717879090?accessId=81c5c5
+
+Odometry Calibration: https://app-na1.hubspotdocuments.com/documents/8795519/view/717879114?accessId=84112c
+
+ROS: https://app-na1.hubspotdocuments.com/documents/8795519/view/717428957?accessId=50411d

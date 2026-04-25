@@ -200,6 +200,7 @@ Q: Given a motion model and an initial condition, what is the third step to solv
 A: 3
 
 Questions below are the ones I (Duncan) made
+
 Q: What are the 2 frames we are working with?
 1. Robot and Duckiematrix map
 2. Robot and World
